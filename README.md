@@ -16,4 +16,4 @@ The lifecycle of this application is as follows:
   
 To use the application, please visit https://pizzadetailer.herokuapp.com/
 
-Screenshots of the application being used are also provided.
+To see the screenshots of the application being used, view the attached images (Step 1.png, Step 2.png, Step 3.png, Step 4.png, Step 5.png,)
