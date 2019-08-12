@@ -1,0 +1,187 @@
+body
+{
+  text-align: center;
+  color: #73AD21;
+}
+
+.topnav 
+{
+  overflow: hidden;
+  height: 55px;
+  background-color: #73AD21;
+  transition: 0.25s ease;
+}
+
+.topnav:hover
+{
+  height: 60px;
+  background-color: rgb(172, 202, 130);
+}
+
+.topnav a 
+{
+  float: left;
+  color: #73AD21;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 2px solid #73AD21;
+}
+
+.topnav a.active 
+{
+  background-color:white;
+  color: #73AD21;
+}
+
+button
+{
+  background: #73AD21;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:30px;
+  font-size:15px;
+  padding:0 2em;
+  cursor:pointer;
+  transition:0.25s ease all;
+  outline:none;
+}
+button:hover
+{
+  background:#fff;
+  color:#1AAB8A;
+}
+button:before,button:after
+{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #1AAB8A;
+  transition:0.25s ease all;
+}
+button:after
+{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+button:hover:before,button:hover:after
+{
+  width:100%;
+  transition:0.25s ease all;
+}
+
+#userInfo
+{
+  margin-top: 5%
+}
+
+.boxy
+{
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 2px solid #73AD21;
+  margin-top: 2%;
+  height: 30px;
+  width: 100px;
+  transition: 0.25s;
+}
+.boxy:hover
+{
+  border-bottom: 2px solid rgb(73, 121, 6);
+  width: 115px
+}
+.boxy:focus
+{
+  width: 300px;
+  
+}
+.boxy:not(:focus)
+{
+  font-style:italic;
+  font-size: 12px
+}
+
+#sizes
+{
+  margin-top: 2%
+}
+
+
+.form-radio
+{
+     margin-left: 15px;
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-left: 2%;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+
+#example
+{
+  font-size: 11px;
+  color: black;
+}
+
+ul
+{
+  list-style-type:none;
+  margin: 0 auto;
+  width: 300px;
+}
+li
+{ 
+  background: rgb(183, 221, 130);
+  color: white
+}
+li:nth-child(odd) 
+{ 
+  background: white;
+  color: #73AD21;
+}
+
+#submitter
+{
+  margin-top: 2%
+}
+
+#After
+{
+  display: none;
+  margin-top: 5%
+}
